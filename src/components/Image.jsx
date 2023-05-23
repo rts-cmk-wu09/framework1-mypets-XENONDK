@@ -1,8 +1,8 @@
 import { styled} from "styled-components";
 
 const StyledImg = styled.img`
-width: auto;
-height: ${(props => props.height)};
+max-width: ${(props => props.height)}px;
+height: auto;
 `
 
 const Image = (props) => {
