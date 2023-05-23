@@ -4,13 +4,16 @@ const StyledButton = styled.button`
 background-color: #57419D;
 color: white;
 border-radius: 25px;
-width: 200px;
-height: 150px;
+width: 300px;
+height: 50px;
+align-self: center;
+font-size: 20px;
+margin-top: ${(props) => props.margin}
 `
 
-const Button = () => {
+const Button = (props) => {
     return ( 
-        <StyledButton>Skip</StyledButton>
+        <StyledButton {...props}>Skip</StyledButton>
      );
 }
  

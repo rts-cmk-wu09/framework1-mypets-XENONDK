@@ -1,3 +1,22 @@
 #root {
-  max-width: 768px;
+  max-width: 100vw;
+  
+}
+
+body{
+  background-color: #f5f5fa;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  
 }
